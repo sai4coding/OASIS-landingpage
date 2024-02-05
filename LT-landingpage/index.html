@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pack Your Bags</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Plan</a>
+    <a href="#">Contact Us</a>
+    <a href="#">Map</a>
+    <form class="search-form">
+      <input type="search" placeholder="Search...">
+    </form>
+  </nav>
+  <div class="coupon-widget">
+    <h4>Exclusive Discount!</h4>
+    <img src="discount.jpg" width="150" height="100" alt="Coupon image">
+    <p>Click to reveal code:</p>
+    <button onclick="toggleCouponCode()">Show Code</button>
+    <span id="coupon-code" style="display: none;">CODE15</span>
+</div>
+  <h1>Pack Your Bags</h1>
+  <form action="/login" method="post" class="login-container">
+    <h2>Login</h2>
+    <img src="user.png" alt="Username logo" class="login-logo">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username"><br><br>
+    <img src="password.png" alt="Password logo" class="login-logo">
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password"><br><br>
+    <button type="submit">Login</button>
+  </form>
+</body>
+</html>
+
