@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: rgba(41, 75, 243, 0.778);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 50;
+
+}
+
+.logo{
+    font-size: 25px;
+    color: rgb(225, 227, 228);
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+
+.logo:hover{
+    color: rgb(15, 167, 201);
+    text-shadow: 0 0 25px orangered
+                 0 0 50px orangered;
+    transform: scale(1.1);             
+}
+
+span{
+    color: rgb(21, 170, 239);
+
+}
+
+.navbar a{
+    font-size: 18px;
+    color: rgb(248, 248, 248);
+    font-weight: 500;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+
+
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: rgb(233, 229, 228);
+}
+
+.home{
+    width: 100%;
+    min-height: 100vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0;
+
+}
+
+.home-content{
+    max-width: 800px;
+
+}
+
+.home-content h3{
+    font-size: 42px;
+}
+
+.home-content h1{
+    font-size: 62px;
+    line-height: 1.2;
+}
+
+.home-content p{
+    font-size: 18px;
+    margin: 25px 0 30px;
+
+}
+
+.btn-box{
+    width: 345px;
+    display: flex;
+    gap: 2em;
+}
+
+.btn-1{
+    padding: 15px 28px;
+    background-color: rgb(19, 155, 222);
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size:18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+    
+}
+
+.btn-1:hover{
+    background-color: rgb(17, 142, 238);
+    color: white;
+    border: 2px solid rgb(238, 235, 235);
+
+}
+
+ 
+
+.img-box img{
+    border-radius: 12%;
+    width: 500px;
+
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: orangered;
+}
+
+::-webkit-scrollbar-track{
+    background-color: rgba(0, 0,0,0.6);
+    width: 50px;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 8%;
+    gap: 10em;
+    background: rgb(241, 244, 245);
+}
+
+.about-img img{
+    position: relative;
+    width: 500px;
+    box-shadow: 0 0 25px rgb(13, 201, 226);
+    
+}
+
+.about-content h2{
+    text-align: left;
+    color: rgb(15, 62, 247);
+    font-size: 42px;
+
+}
+
+.about-content h3{
+    font-size: 62px;
+    color: rgb(14, 110, 227);
+
+}
+
+.about-content p{
+    color: rgb(22, 1, 1);
+    font-size: 20px;
+    margin: 2em 0 3em;
+
+}
+
+.contact h2{
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    font-size: 36px;
+
+
+}
+
+.contact-form form{
+    max-width: 50em;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3em;
+}
+.contact form .input-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+
+}
+
+.input-box input,
+.input-box textarea {
+  border-radius: 5px; 
+  border: 1px solid #676665; 
+  padding: 15px;
+}
+
+.social-media {
+    text-align: center; 
+  }
+  
+  .social-links {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+  }
+  
+  .social-links li {
+    display: inline-block; 
+    margin: 10px; 
+  }
+  
